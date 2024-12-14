@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+.container {
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+
+
+/** header */
+
+.gl_img{
+    height: 700px;
+    background-image: url(../images/Rectangle\ 42.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+header, .gl_img {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3; 
+}
+
+.nav_content{
+    padding: 0;
+}
+
+ul{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 55%;
+}
+
+li{
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 30px;
+}
+
+.main_text{
+    font-size: 150px;
+    text-align: center;
+    padding-top: 23%;
+    font-family: 'Balqis', sans-serif;
+    cursor: pointer;
+}
+
+li:hover{
+    color: orange;
+}
+
+/*? /////////////////////////////////////////////////////////////////////////////////// */
+.txt_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+    height: 350px;
+}
+
+.txt_flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+}
+
+.tail{
+    font-family: 'Balqis', sans-serif;
+    cursor: pointer;
+    color: orange;
+    /* margin-left: 50px; */
+    font-size: 100px;
+}
+
+.spn1{
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 250px;
+}
+
+.spn4{
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 250px;
+}
+
+.spn5{
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 150px;
+}
+
+/** section */
+section{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#i{
+    width: 35px;
+    height: 35px;
+    padding: 5px 10px;
+    color: #000000;
+    font-size: 25px;
+    background-color: #818181;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+i :hover{
+    color: #4f4f4f;
+}
+
+.position1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.position{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.images_slide {
+    width: 95%;
+    height: 95%;
+    display: none;
+}
+
+.img1{
+    background-image: url(../images/Rectangle\ 19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img2{
+    background-image: url(../images/слайдер\ 1\ \ картинка\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img3{
+    background-image: url(../images/слайдер\ 1\ \ картинка\ 3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.flex_div{
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.about_trip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 405px;
+    margin-left: 30px;
+}
+
+.spn2{
+    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #818181;
+}
+
+.h4_sec{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/** >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.reserve{
+    width: 200px;
+    height: 50px;
+    border: 1px solid gold;
+    background-color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.reserve :hover{
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.375);
+}
+
+.day_div{
+    height: 20px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 15px;
+}
+
+.sec_2{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.spn3{
+    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #818181;
+}
+
+.about_trip1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    margin-left: 100px;
+    width: 250px;
+}
+
+.img4{
+    background-image: url(../images/Rectangle\ 22.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img5{
+    background-image: url(../images/слайдер\ 2\ \ картинка\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img6{
+    background-image: url(../images/слайдер\ 2\ \ картинка\ 3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.images_slide1 {
+    width: 95%;
+    height: 95%;
+    display: none;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.spn6{
+    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #818181;
+}
+
+.sec_3{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.part_2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.spn_div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+}
+
+.img_div{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 15px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.sec_4{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.with{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.without{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.iamges{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+/* pre-footer */
+
+pre-footer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.inp{
+    height: 50px;
+    width: 250px;
+    border: 1px solid gold;
+
+}
+
+.zayava{
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+/* footer */
+
+.footer_img{
+    height: 800px;
+    background-image: url(../images/Rectangle\ 42.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 100px;
+}
+
+.footer_img2{
+    margin-top: 50px;
+    width: 400px;
+    height: 450px;
+    background-image: url(../images/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92\ 2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer_div{
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.main_text1{
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Balqis', sans-serif;
+    margin-right: 50px;
+}
+
+#ff{
+    font-size: 20px;
+}
+
+.tail2{
+    font-family: 'Balqis', sans-serif;
+    cursor: pointer;
+    color: orange;
+    font-size: 50px;
+}
+
+.foot_flex{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* modal  */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.modal__dialog {
+    max-width: 500px;
+    margin: 40px auto
+}
+
+.modal__content {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid gold;
+    border-radius: 4px;
+    max-height: 80vh;
+    overflow-y: auto
+}
+
+.modal__close {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    font-size: 30px;
+    color: #000;
+    opacity: .5;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    cursor: pointer
+}
+
+.modal__title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase
+}
+
+.modal__input {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 280px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border: 1px solid gold;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+    outline: 0
+}
+
+.modal .btn {
+    display: block;
+    width: 280px;
+    margin: 0 auto
+}
